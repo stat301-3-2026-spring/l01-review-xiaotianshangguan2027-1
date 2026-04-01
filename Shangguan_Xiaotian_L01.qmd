@@ -1,8 +1,8 @@
 ---
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
-author: "YOUR NAME"
-pagetitle: "L01 YOUR NAME"
+author: "Xiaotian Shangguan"
+pagetitle: "L01 Xiaotian Shangguan"
 date: today
 
 format:
@@ -26,9 +26,7 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
-
-[https://your-github-repo-url](https://your-github-repo-url)
+[Xiaotian's Repo](https://github.com/stat301-3-2026-spring/l01-review-xiaotianshangguan2027-1)
 :::
 
 ## Overview
@@ -57,8 +55,9 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+In supervised learning, the model has a target variable, because the model is trying to precict an outcome. The outcome "supervises" the learning. 
 
+While in unsupervised learning, the model does not have a target variable for this process, because the model is mainly trying to structure a data set.
 :::
 
 ### Question 3 
@@ -70,7 +69,10 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+The model is trying to describe relationships/structure in data through trends....finsih
+
+This model is another way to summarize the data. 
+Linear models and parametric models are good at this. 
 
 :::
 
@@ -79,7 +81,8 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+The model is trying to explain the *how* and *why* of a relationship. In essence, an inferential model tries to explain how specific predictor variable affects or impacts an outcome. It tries to understand and unpack the impacts of predictor variables.
+Parametric models are very useful for this. 
 
 :::
 
@@ -88,7 +91,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This model tries to predict an outcome as accurately as possible. This model does not care as much about the predictor variables or how they are used. 
 
 :::
 
@@ -103,7 +106,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+
 
 :::
 
@@ -224,7 +227,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+R squared and RMSE. 
 
 :::
 
@@ -233,7 +236,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+ROC/AUC and accuracy. 
 
 :::
 
@@ -248,8 +251,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+This is an inferential problem because the company interested in *how* a predictor variable( high number of service calls) impacts an outcome variable (likelihood of churn). 
 :::
 
 2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
@@ -257,7 +259,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This is a prediction question. This question purely concerned in predicting the outcome variable (churn likelihood). 
 
 :::
 
