@@ -55,7 +55,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-In supervised learning, the model has a target variable, because the model is trying to precict an outcome. The outcome "supervises" the learning. 
+In supervised learning, the model has a target variable, because the model is trying to predict an outcome. The outcome "supervises" the learning. 
 
 While in unsupervised learning, the model does not have a target variable for this process, because the model is mainly trying to structure a data set.
 :::
@@ -69,9 +69,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-The model is trying to describe relationships/structure in data through trends....finsih
-
-This model is another way to summarize the data. 
+The model is trying to describe relationships, characteristics, and structure in data through trends or artifact of data. This model is another way to summarize the data. 
 Linear models and parametric models are good at this. 
 
 :::
@@ -106,8 +104,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-
-
+It is a model that is made through by following some known form or equation. An example is a linear regression or logistic regression models that use specific equations. 
 :::
 
 #### Part (b)
@@ -117,7 +114,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+These models do not make assumptions about the form the data will take. THese models are built and made by the dataset. Some examples are decision trees and nearest neighbors. 
 
 :::
 
@@ -128,7 +125,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are also known as parametric models and empirically driven models are non-parametric models. This is how the model terminology relates. 
 
 :::
 
@@ -139,7 +136,9 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are easier to interpret because t
+
+because they are grounded in theory and have directly meaningful components, whereas empirically driven models prioritize predictive performance and often sacrifice interpretability.
 
 :::
 
@@ -172,7 +171,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+The main difference is the type of value the problems are trying to predict. Regression ML problems are trying to predict a specific numerical value of a continuous variable.On the other hand, classification problems are trying to predict the class of a categorical variable. 
 
 :::
 
@@ -183,8 +182,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Stratifying by the outcome/target variable makes each split have a similar distribution of the target variable and predictors. This is useful for preventing imbalance issues, as each split reflects the entire data, so performance metrics are more representative. This also reduces bias or any skewness, and makes the data more generalizable. 
 :::
 
 ### Question 7 
@@ -194,7 +192,9 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+In v-fold cross validation resampling with repeats, the data is partitioned in v sets (folds) of roughly equal size (usually v = 3,5,10). The model is then fit on v-1 folds and then evaluated on the last fold. The final performance measure is an average over all the v folds. This process is then repeated however R times. 
+
+V-fold cross validations is used to provide a more reliable estimate of model performance than just the train/test split. It also reduces the variability in the data that is caused by how the data is split. It makes better use of limited data and helps prevent overfitting as well. As such, v-fold helps ensure the model will generalize well to unseen data. 
 
 :::
 
@@ -204,8 +204,8 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 
 ::: {.callout-tip icon="false"}
 ## Solution
-
-YOUR SOLUTION HERE
+ 
+We might use a bootstrap resampling procedure instead of a v-fold cross validation in cases of very small datasets. This is because bootstrapping makes more flexible use of limited data by smpling with replacement, often giving a better sense of performance when splitting into folds would leave too little training data. 
 
 :::
 
@@ -216,7 +216,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning, also known as tuning the hyperparameters, is a process of adjusting a model's "settings" (hyperparameters). Model tuning is used to optimize the model's performance by increasing accuracy and decreasing error. Tuning tries to help the model avoid overfitting or underfitting, balance between bias and variance, and make the model generalize better to new, unseen data.
 
 :::
 
