@@ -136,10 +136,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Mechanistic models are easier to interpret because t
-
-because they are grounded in theory and have directly meaningful components, whereas empirically driven models prioritize predictive performance and often sacrifice interpretability.
-
+Mechanistic models are easier to interpret because they are based on preset theories and structures that we already understand. So if a data set fits into a mechanistic model, there are already previous understandings/structures that we can apply to understanding the trends in the data. On the other hand, empirically driven models soley look at the data itself and try to form relationships there. As a result, we might understand that the variables contribute, but we might not know the why behind it. 
 :::
 
 #### Part (e)
@@ -149,7 +146,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Empirically driven models are much more flexible since they are solely driven by the data that it is given to make the model. As such, it can be applied to many different datasets to find trends there. Mechanistic models are less flexible since they have preset structures built into them already. As a result, not every data set is going to fit within those structures. 
 
 :::
 
@@ -160,7 +157,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+ Mechanistic models tend to have high bias but low variance because they have a preset, fixed structure that it is trying impose on a dataset. These models are stable, but might underfit the data. On the other hand, empirical models have low bias but high variance. As more flexible and data-driven models, empirical models are more snesistive ot noise and flucturations in the data set, which can lead to overfitting instead. 
 
 :::
 
@@ -171,7 +168,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-The main difference is the type of value the problems are trying to predict. Regression ML problems are trying to predict a specific numerical value of a continuous variable.On the other hand, classification problems are trying to predict the class of a categorical variable. 
+The main difference is the type of value the problems are trying to predict. Regression ML problems are trying to predict a specific numerical value of a continuous variable. On the other hand, classification ML problems are trying to predict the class of a categorical variable. 
 
 :::
 
