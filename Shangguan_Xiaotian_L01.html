@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Xiaotian Shangguan">
-<meta name="dcterms.date" content="2026-04-03">
+<meta name="dcterms.date" content="2026-04-05">
 
 <title>L01 Xiaotian Shangguan</title>
 <style>
@@ -2229,7 +2229,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 3, 2026</p>
+      <p class="date">April 5, 2026</p>
     </div>
   </div>
   
@@ -2274,7 +2274,17 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<ul>
+<li>split data into training and testing sets, with more data reserved for training. Usually the training/testing split is 80/20, but it can be 70/30 for smaller datasets. If you are conducting a resampling process, fold the data for resampling.</li>
+<li>conduct an EDA and create a recipe with preferred preprocessing or engineering stepts performed on data.</li>
+<li>set engines for the model(s). If doing resampling, set tuning hyperparameters.</li>
+<li>if conducting resampling, define grid for parameters to be tuned on</li>
+<li>create a workflow</li>
+<li>fit workflow to training or resampling data.</li>
+<li>if conducting resampling process, compare model performances and select the model that performed the best</li>
+<li>fit model to entire training data</li>
+<li>evaluate model performance by testing how well it predicts the outcome variable on the testing data.</li>
+</ul>
 </div>
 </div>
 </section>

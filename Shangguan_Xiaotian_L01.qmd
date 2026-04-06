@@ -44,7 +44,15 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- split data into training and testing sets, with more data reserved for training. Usually the training/testing split is 80/20, but it can be 70/30 for smaller datasets. If you are conducting a resampling process, fold the data for resampling. 
+- conduct an EDA and create a recipe with preferred preprocessing or engineering stepts performed on data. 
+- set engines for the model(s). If doing resampling, set tuning hyperparameters. 
+- if conducting resampling, define grid for parameters to be tuned on 
+- create a workflow
+- fit workflow to training or resampling data. 
+- if conducting resampling process, compare model performances and select the model that performed the best
+- fit model to entire training data
+- evaluate model performance by testing how well it predicts the outcome variable on the testing data.  
 
 :::
 
